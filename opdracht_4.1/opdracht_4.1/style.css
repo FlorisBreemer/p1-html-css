@@ -1,0 +1,19 @@
+h1{font-size: 24px;
+color:blue;
+font-style: italic;
+font-weight: bold;}
+
+h2{font-size: 20px;
+color : #0000ff;
+font-weight: bold;}
+
+h3{font-size: 16px;
+color:teal;
+font-weight: bold;}
+
+p{color : #4D4D4d;}
+
+    a{color : #8a2be2;
+        text-decoration: none;}
+
+        div{font-weight: bold;}
