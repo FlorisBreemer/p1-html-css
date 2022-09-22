@@ -9,11 +9,11 @@
 <form action="results.html" method="GET" enctype="multipart/form-data">
     <div>
       <label for="name">Voornaam</label>
-      <input type="text" name="name" id="name" required>
+      <input type="text" name="name" id="name" pattern="[a-zA-Z]*" required>
   </div>
   <div>
     <label for="name">Achternaam</label>
-    <input type="text" name="name" id="name" required>
+    <input type="text" name="name" id="name" pattern="[a-zA-Z]*" required>
 </div>
     Geslacht
     <div>
@@ -42,7 +42,7 @@
     </div>
     <div>
       <label for="phone">BSN-Nummer</label>
-      <input type="tel" name="phone" id="phone">
+      <input type="tel" name="phone" id="phone" maxlength="9">
     </div>
   <div>
     <label for="vakantieland">Vakantielanden selecteren</label>
