@@ -8,6 +8,7 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-color: black;
 }
 
 nav {
@@ -43,5 +44,85 @@ nav img {
   height: 100%;
   object-fit: contain;
 }  */
-h1{text-align: center;
-font-size: xx-large;}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+main {
+  background-color: black;
+}
+
+header {
+  background-image: url("./img/hackerr.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 10rem;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.container1 {
+  text-align: right;
+  padding-right: 50px;
+  font-size: medium;
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: black;
+}
+
+.container3 {
+  text-align: left;
+  font-size: medium;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.photo {
+  margin-left: 1000px;
+}
+
+.container4 {
+  text-align: right;
+  padding-right: 50px;
+  font-size: medium;
+  padding-bottom: 50px;
+}
+
+.container5 {
+  text-align: left;
+  padding-left: 50px;
+  font-size: medium;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+footer {
+  text-align: center;
+  font-size: large;
+  padding-bottom: 20px;
+  background-color: #00a8c7;
+  padding-top: 20px;
+}
+
+.photo2 {
+  margin-left: 800px;
+  margin-bottom: 200px;
+}

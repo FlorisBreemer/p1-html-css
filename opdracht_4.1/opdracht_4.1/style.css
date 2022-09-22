@@ -31,7 +31,9 @@ font-weight: bold;}
         article{border-style: groove;
         border-width: 5px;
     border-left-width: 10px;
- border-radius: 10px;
+ border-radius: 25px;
 border-color: blue;}
+
+.container{border-color: red;}
 
     
