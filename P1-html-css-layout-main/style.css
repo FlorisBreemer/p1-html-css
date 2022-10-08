@@ -47,7 +47,6 @@ nav img {
   object-fit: contain;
 }  */
 h1 {
-  text-align: center;
   font-size: xx-large;
 }
 
@@ -65,18 +64,31 @@ header {
   margin-bottom: 10rem;
 }
 
+.header-sec {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header-sec h1 {
+  margin-bottom: 10rem;
+}
+
 p {
   color: white;
 }
 
 h1 {
   color: white;
+  font-size: 6rem;
 }
 
 h2 {
   color: white;
   text-align: center;
   font-size: xx-large;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .container1 {
@@ -93,12 +105,10 @@ footer {
 .container3 {
   text-align: left;
   font-size: medium;
-  padding-left: 40px;
-  padding-top: 40px;
 }
 
-.photo {
-  margin-left: 1000px;
+.container2 {
+  margin-left: 5rem;
 }
 
 .container4 {
@@ -109,11 +119,7 @@ footer {
 }
 
 .container5 {
-  text-align: left;
-  padding-left: 50px;
   font-size: medium;
-  padding-bottom: 50px;
-  padding-top: 100px;
 }
 
 footer {
@@ -125,7 +131,62 @@ footer {
 }
 
 .photo2 {
-  margin-left: 800px;
-  margin-bottom: 200px;
+  width: 40rem;
+  height: 20rem;
+}
+
+.html-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.html-sec p {
+  margin-top: 2rem;
+}
+
+.js-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.js-sec p {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+}
+
+.js-sec img {
+  margin-right: 5rem;
+}
+
+.php-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.php-sec p {
+  margin-top: 5rem;
+}
+
+.php-sec img {
+  margin-left: 5rem;
+}
+
+.sql-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sql-sec img {
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+
+.sql-sec p {
+  margin-left: 5rem;
 }
 
