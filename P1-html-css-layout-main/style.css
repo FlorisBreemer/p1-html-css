@@ -24,21 +24,45 @@ nav {
   position: sticky;
   top: 0;
 }
-nav ul {
+ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
-nav li {
+li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
-nav a {
+a {
   color: white;
   text-decoration: none;
 }
 nav img {
   width: 5vw;
+}
+
+li a {
+  display: inline-block;
+}
+
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e9e9e9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  color: #00a8c7;
+  width: 100%;
 }
 
 /* section img {
@@ -189,4 +213,3 @@ footer {
 .sql-sec p {
   margin-left: 5rem;
 }
-
