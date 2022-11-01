@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: red;
+  height: 10vh;
+}
+
+nav h1 {
+  color: white;
+  padding-left: 10vh;
+  padding-top: 1vh;
+}
+
+.sec1 {
+  background-color: yellow;
+  height: 30vh;
+}
+
+.sec2 {
+  background-color: orange;
+  height: 30vh;
+}
+
+.sec3 {
+  background-color: green;
+  height: 30vh;
+}
+
+section p {
+  padding-left: 10vh;
+}
+
+section h1 {
+  padding-left: 10vh;
+  padding-top: 2vh;
+}
+div {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+  }
+
+  .sec1 {
+    background-color: palevioletred;
+    color: white;
+  }
+
+  .sec2 {
+    background-color: blueviolet;
+    color: white;
+  }
+
+  .sec3 {
+    color: white;
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  div {
+    display: block;
+    margin-right: 2vh;
+  }
+  nav {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+  }
+
+  nav h1 {
+    padding: 0;
+    padding-left: 2vh;
+  }
+
+  section h1 {
+    font-size: medium;
+    padding-left: 0;
+  }
+
+  section p {
+    font-size: small;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec1 {
+    background-color: aqua;
+  }
+
+  .sec2 {
+    background-color: plum;
+  }
+
+  .sec3 {
+    background-color: darkblue;
+  }
+}
